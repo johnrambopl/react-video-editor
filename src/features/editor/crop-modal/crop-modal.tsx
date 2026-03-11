@@ -127,6 +127,9 @@ const CropModal = () => {
           <DialogOverlay className="z-[300] bg-zinc-950/80">
             <DialogContent className="z-[300] flex max-h-[800px] w-full sm:max-w-[900px] flex-col bg-zinc-950 px-8">
               <DialogTitle>Crop</DialogTitle>
+              <DialogDescription className="hidden">
+                Crop tool for adjusting the size and aspect ratio of your images and videos
+              </DialogDescription>
 
               <div className="flex gap-4">
                 <div className="w-56 flex flex-col gap-2">

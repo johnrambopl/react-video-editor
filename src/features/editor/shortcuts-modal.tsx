@@ -3,6 +3,7 @@
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle
 } from "@/components/ui/dialog";
@@ -93,6 +94,9 @@ export function ShortcutsModal({ open, onOpenChange }: ShortcutsModalProps) {
       <DialogContent className="md:max-w-5xl w-full max-w-5xl border bg-card p-6 py-8 overflow-hidden">
         <DialogHeader className="px-6">
           <DialogTitle className="text-lg font-semibold">Shortcuts</DialogTitle>
+          <DialogDescription className="hidden">
+            A list of keyboard shortcuts and their descriptions for the video editor
+          </DialogDescription>
         </DialogHeader>
         <div className="px-6">
           <div className="grid grid-cols-3 gap-8">

@@ -2,6 +2,7 @@ import React, { use, useEffect, useRef, useState } from "react";
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle
@@ -218,6 +219,9 @@ const ModalUpload: React.FC<ModalUploadProps> = ({ type = "all" }) => {
         <DialogContent>
           <DialogHeader>
             <DialogTitle className="text-md">Upload media</DialogTitle>
+            <DialogDescription>
+              Upload or drag and drop media files to add to your project
+            </DialogDescription>
           </DialogHeader>
           <div className="space-y-6">
             <label className="flex flex-col gap-2">
